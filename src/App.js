@@ -153,9 +153,7 @@ function App() {
       <div className="max-w-6xl mx-auto p-5">
         {/* Header */}
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Task Manager
-          </h1>
+          <h1 className="text-3xl font-bold ">Task Manager</h1>
           <div className="flex items-center gap-3">
             <button
               className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 dark:bg-blue-400 dark:hover:bg-blue-500 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
@@ -205,7 +203,7 @@ function App() {
             {(provided) => (
               <div {...provided.droppableProps} ref={provided.innerRef}>
                 {tasks.length === 0 ? (
-                  <p className="text-gray-500 dark:text-white">
+                  <p className="text-gray-500 ">
                     No tasks found for this account.
                   </p>
                 ) : (
