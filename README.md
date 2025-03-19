@@ -1,13 +1,3 @@
-Below is the updated README.md in Markdown format, tailored for your Blockchain Task Manager project. It includes the live demo link (https://task-manager-blockchain-psi.vercel.app/), GitHub repository link (https://github.com/Subbu-chowdary/Task-manager-blockchain), and detailed setup, deployment, and testing instructions. The content reflects your use of the SepoliaETH testnet, transactions visible on Sepolia Etherscan, and the specific features of your project (e.g., Tailwind CSS, drag-and-drop persistence with localStorage, etc.).
-
-Updated README.md
-markdown
-
-Collapse
-
-Wrap
-
-Copy
 # Blockchain Task Manager
 
 A decentralized task manager application built on the Ethereum blockchain (Sepolia testnet) using Solidity and React. This DApp allows users to manage tasks (create, update, delete, and reorder via drag-and-drop) with a responsive UI, dark mode support, and wallet-based authentication via MetaMask.
