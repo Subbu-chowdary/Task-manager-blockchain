@@ -115,7 +115,7 @@ The smart contract is deployed on the **Sepolia ETH testnet**. You can view tran
 3. **Set Up Environment Variables**: Create a `.env` file in the project root and add the contract address:
 
    ```env
-   REACT_APP_CONTRACT_ADDRESS=0x147f355376bf85c83721cedb6a552d4103f5fe2c
+   REACT_APP_CONTRACT_ADDRESS=0x147f355376..........................
    ```
 
    Replace the address with your deployed contract address if different.
